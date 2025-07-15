@@ -1,0 +1,10 @@
+apiVersion: 1
+
+datasources:
+  - name: SQLite
+    type: frser-sqlite-datasource
+    access: proxy
+    url: file:///var/lib/grafana/data/metrics.db
+    jsonData:
+      path: /var/lib/grafana/data/metrics.db
+    editable: true 
