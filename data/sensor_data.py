@@ -7,7 +7,7 @@ Grafana 학습용 실습 데이터 생성
 import sqlite3
 import time
 import random
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 import os
 
 class SensorDataGenerator:
@@ -44,7 +44,7 @@ class SensorDataGenerator:
         """샘플 센서 데이터 생성"""
         print(f"🔄 {num_samples}개의 센서 데이터를 생성합니다...")
         
-        base_time = datetime.utcnow()
+        base_time = datetime.now(timezone.utc)
         
         for i in range(num_samples):
             # 시간 계산 (2초 간격)

@@ -89,7 +89,7 @@ GrafanaTraining/
 ## 🔗 유용한 링크
 
 - [Grafana 공식 문서](https://grafana.com/docs/)
-- [SQLite 플러그인](https://grafana.com/grafana/plugins/fr-ser-sqlite-datasource/)
+- [SQLite 플러그인](http://localhost:3000/plugins/frser-sqlite-datasource/)
 - [Docker Compose 문서](https://docs.docker.com/compose/)
 
 ## 📝 라이센스
