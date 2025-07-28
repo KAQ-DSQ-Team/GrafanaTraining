@@ -288,4 +288,5 @@
 
 **작성일**: 2025-01-15  
 **버전**: 1.0.0  
-**작성자**: Grafana Training Team 
+**작성자**: Grafana Training Team
+
